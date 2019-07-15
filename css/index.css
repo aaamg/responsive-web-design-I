@@ -236,9 +236,15 @@ h4{
     .head-img {
         display: none;
     }
+    
 
-    .mid-img{
-        display: none;
+    .middle-img{
+        display: flex;
+        justify-content: flex-start;
+        width: 650px;
+        padding-right: 50px;
+        
+        
     }
 
     .copy {
