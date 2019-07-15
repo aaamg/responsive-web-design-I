@@ -196,6 +196,8 @@ h4{
         margin: 0 auto;
     }
 
+    
+
     .top header nav{
         display: flex;
         flex-wrap: wrap;
@@ -213,6 +215,14 @@ h4{
         margin: 0 auto;
         
     }
+
+    
+    .top header img{
+        display: flex;
+
+    }
+
+
 
     .innoMob {
         display: flex;
@@ -235,6 +245,7 @@ h4{
 
     .head-img {
         display: none;
+        
     }
     
 
@@ -341,6 +352,11 @@ h4{
         padding: 0;
         margin: 0;
         
+    }
+
+    .top header img{
+        display: flex;
+
     }
 
 
