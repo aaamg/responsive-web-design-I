@@ -177,15 +177,267 @@ h4{
 	margin-bottom: 5%
 
 }
+/* --------------------- DONE ABOVE ------------------ */
+/* --------------------- DONE ABOVE ------------------ */
+/* --------------------- DONE ABOVE ------------------ */
+/* --------------------- DONE ABOVE ------------------ */
+/* --------------------- DONE ABOVE ------------------ */
+/* --------------------- DONE ABOVE ------------------ */
+/* --------------------- DONE ABOVE ------------------ */
+/* --------------------- DONE ABOVE ------------------ */
+/* --------------------- DONE ABOVE ------------------ */
 
 @media screen and (max-width: 800px){
     body{
-        background-color: red;
+        background-color:#CFFFEB;
+    }
+    .contain {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .top header nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+       
+        
+    }
+
+
+    a {
+        font-size:20px;
+        width: 50px;
+        padding: 0 auto;
+        margin: 0 auto;
+        
+    }
+
+    .innoMob {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+        width: 700px;
+        font-size: 20px;
+        
+    }
+
+    h4{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .logo {
+        display: none;
+    }
+
+    .head-img {
+        display: none;
+    }
+
+    .mid-img{
+        display: none;
+    }
+
+    .copy {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .mid {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 750px;
+        padding-bottom: 80px;
+
+        
+    }
+
+    .feat{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 750px;
+    }
+    
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 750px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 20px auto;
+        
+    }
+    .serve {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 750px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        
+        margin-left: 0px;
+        
+        
+    }
+    .prod {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 750px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        
+        margin-left: 0px;
+    }
+    .vis {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 750px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        
+        margin-left: 0px;
     }
 }
 
+/* --------------------- DONE BELOW ------------------ */
+/* --------------------- DONE BELOW ------------------ */
+/* --------------------- DONE BELOW ------------------ */
+/* --------------------- DONE BELOW ------------------ */
+/* --------------------- DONE BELOW ------------------ */
+/* --------------------- DONE BELOW ------------------ */
+/* --------------------- DONE BELOW ------------------ */
+
+
 @media screen and (max-width: 500px){
     body{
-        background-color: green;
+        background-color:#FFB293;
+    }
+
+    .contain {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .top header nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+
+    a {
+        font-size:10px;
+        width: 50px;
+        padding: 0 auto;
+        margin: 0 auto;
+        
+    }
+
+    .innoMob {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+        width: 240px;
+        font-size: 20px;
+        
+    }
+
+    h4{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .logo {
+        display: none;
+    }
+
+    .head-img {
+        display: none;
+    }
+
+    .mid-img{
+        display: none;
+    }
+
+    .copy {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .mid {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 450px;
+        padding-bottom: 80px;
+        
+    }
+
+    .feat{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 450px;
+        
+        
+        
+    }
+    
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 450px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 20px auto;
+        
+    }
+    .serve {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 450px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        
+        margin-left: 0px;
+        
+        
+    }
+    .prod {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 450px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        
+        margin-left: 0px;
+    }
+    .vis {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 450px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        
+        margin-left: 0px;
     }
 }
